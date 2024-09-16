@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackSun</title>
+    <link rel="icon" href="assets/image/blacksun.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Loading Page -->
+    <div id="loading-container">
+        <img src="assets/image/blacksun.png" alt="Logo">
+    </div>
+    <!-- Loading Page -->
+
+    <!-- Header Page -->
+    <header>
+        <div class="logo">
+            <img src="assets/image/blacksun.png" alt="Logo">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+            &#9776; <!-- Unicode for hamburger menu -->
+        </div>
+        <div id="fullscreen-menu" class="fullscreen-menu">
+            <span class="close" onclick="toggleMenu()">&times;</span>
+            <div class="menu-content">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Page -->
+
+    <!-- Dashboard -->
+    <main>
+        <section id="home" class="hero">
+            <div class="slideshow-container">
+                <div class="slide active">
+                    <img src="assets/image/image1.webp" alt="Slide 1">
+                    <div class="logo-container">
+                        <img src="assets/image/blacksun-name.png" alt="Logo" class="logo">
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="assets/image/image2.jpg" alt="Slide 2">
+                    <div class="logo-container">
+                        <img src="assets/image/blacksun-name.png" alt="Logo" class="logo">
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="assets/image/image3.jpg" alt="Slide 3">
+                    <div class="logo-container">
+                        <img src="assets/image/blacksun-name.png" alt="Logo" class="logo">
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp">
+                        <img src="assets/image/whatsapp.png" alt="WhatsApp" class="social-icon">
+                    </a>
+                    <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram">
+                        <img src="assets/image/instagram.png" alt="Instagram" class="social-icon">
+                    </a>
+                </div>
+                <div class="arrow-wrapper">
+                    <p>SCROLL TO BEGIN</p>
+                    <div class="arrow">&#9660;</div> <!-- Unicode untuk anak panah ke bawah -->
+                </div>
+            </div>
+        </section>
+        <!-- Dashboard -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HW Grup. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
